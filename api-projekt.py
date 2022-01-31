@@ -4,7 +4,7 @@ import time
 
 
 def time_reveal():
-    print('IN')
+    print('In')
 
     for i in range(5,0,-1):
         print(i)
@@ -16,9 +16,6 @@ class Spel:
         self.fox = fox
         self.dice = dice
         self.chuck = chuck
-
-    def __str__():
-        pass
 
     def roll_dice():
         y = requests.get('http://roll.diceapi.com/json/d6')
