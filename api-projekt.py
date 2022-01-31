@@ -5,7 +5,6 @@ import time
 
 def time_reveal():
     print('In')
-
     for i in range(5,0,-1):
         print(i)
         time.sleep(1)
