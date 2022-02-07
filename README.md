@@ -14,6 +14,7 @@ I while loopen frågar den vad spelaren vill göra:
 - Play (1)
 - Game rules (2)
 - quit (3)
+
 Om spelaren väljer 3 stängs spelet ner. Om spelaren väljer två kommer spelreglerna skrivas upp
 och sedan komma tillbaka till spelmenyn. Om spelaren väljer 1 kommer spelet att köras.
 Därefter kommer metoden roll_dice() kallas från klassen. Den returnerar ett tärnings värde 
