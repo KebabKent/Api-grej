@@ -17,55 +17,47 @@ class Spel:
         self.chuck = chuck
 
     def roll_dice():
-        y = requests.get('http://roll.diceapi.com/json/d6')
-        dice = y.json()
+        dice_req = requests.get('http://roll.diceapi.com/json/d6')
+        dice = dice_req.json()
         return dice['dice'][0]['value']
 
     def fox_pic():
-        x = requests.get('http://randomfox.ca/floof')
-        fox = x.json()
+        fox_req = requests.get('http://randomfox.ca/floof')
+        fox = fox_req.json()
         webbrowser.open(fox['image'])
 
     def chuck_joke():
-        z = requests.get('https://api.chucknorris.io/jokes/random')
-        chuck = z.json()
+        chuck_req = requests.get('https://api.chucknorris.io/jokes/random')
+        chuck = chuck_req.json()
         print('\n' + chuck['value'] + '\n')
 
 
-fettma = Spel
+spelare = Spel
 
 
-def fifty_fifty_spel(fettma):
+def fifty_fifty_spel(spelare):
     while True:
         ans = int(input('Game Menu\nPlay (1)\nGame rules (2)' +
                         '\nquit (3)\n\nAnswer: '))
 
         if ans == 1:
             print('')
-            dice_val = fettma.roll_dice()
+            dice_val = spelare.roll_dice()
             print(f'Dice value: {dice_val}')
 
             if dice_val > 3:
                 print('Chuck Norris joke!\n')
                 time_reveal()
-                fettma.chuck_joke()
+                spelare.chuck_joke()
 
             elif dice_val <= 3:
                 print('Fox picture')
                 time_reveal()
-                fettma.fox_pic()
-        
-
-
-        # elif annat gamemode. 
-
-        # elif ännu ett gamemode. 
-
-
+                spelare.fox_pic() 
 
         elif ans == 2:
             print('\nApi rolls dice. \nValue determines outcome.\n' + 
-                            'If value over three chuck Norris joke.\n' + 
+                            'If value over three chuck Norris joke.\n' +
                             'if under or equal to three fox picture.\n')
 
         elif ans == 3:
@@ -76,11 +68,5 @@ def fifty_fifty_spel(fettma):
             print('Answer is invallid please try again!')
 
 
-fifty_fifty_spel(fettma)
+fifty_fifty_spel(spelare)
 
-
-"""
-
-Utöka spelet. Gör mer saker typ gamemodes och liknande.
-
-"""
