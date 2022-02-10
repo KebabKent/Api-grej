@@ -11,11 +11,6 @@ def time_reveal():
 
 
 class Spel:
-    def __init__(self, fox, dice, chuck):
-        self.fox = fox
-        self.dice = dice
-        self.chuck = chuck
-
     def roll_dice():
         dice_req = requests.get('http://roll.diceapi.com/json/d6')
         dice = dice_req.json()
