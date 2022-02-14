@@ -8,6 +8,7 @@ def time_reveal():
     for i in range(5,0,-1):
         print(i)
         time.sleep(1)
+    print()
 
 
 class Spel:
@@ -24,7 +25,7 @@ class Spel:
     def chuck_joke():
         chuck_req = requests.get('https://api.chucknorris.io/jokes/random')
         chuck = chuck_req.json()
-        print('\n' + chuck['value'] + '\n')
+        print(chuck['value'] + '\n')
 
 
 spelare = Spel
@@ -46,7 +47,7 @@ def fifty_fifty_spel(spelare):
                 spelare.chuck_joke()
 
             elif dice_val <= 3:
-                print('Fox picture')
+                print('Fox picture!\n')
                 time_reveal()
                 spelare.fox_pic() 
 
