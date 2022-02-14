@@ -58,6 +58,6 @@ Om du använder programmet får du gärna ange mig som en Contributor men det g�
 
 
 ## Kontakt information
-Noneofyourdamnbuissnes.com
+Noneofyourdamnbusiness.com
 och på github antar jag.
 
