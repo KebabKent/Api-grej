@@ -30,7 +30,7 @@ skämtet visas i antingen terminalen eller webbläsaren.
 
 
 ## Installation
-Det ända som behöver installeras för att köra programmet är Python biblioteket requests.
+Det enda som behöver installeras för att köra programmet är Python biblioteket requests.
 
 ```powershell
 pip install requests
