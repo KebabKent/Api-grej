@@ -25,6 +25,10 @@ av prosesserna sker kommer programmet att räkna ner från fem för dramatisk ef
 skämtet visas i antingen terminalen eller webbläsaren. 
 
 
+## UML-Diagram
+![Skärmbild (3)](https://user-images.githubusercontent.com/91462301/153832079-8b6748ef-095a-4059-b765-bca62061a98a.png)
+
+
 ## Installation
 Det ända som behöver installeras för att köra programmet är Python biblioteket requests.
 
