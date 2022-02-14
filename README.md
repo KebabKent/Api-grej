@@ -32,6 +32,11 @@ Det ända som behöver installeras för att köra programmet är Python bibliote
 pip install requests
 ```
 
+
+## Medvetna fel (issue tracker)
+Inga medvetna fel förekommer.
+
+
 ## To do
 Det finns ingen anledning att fortsätta utveckla programmet. Det är väldigt simpelt och har bara ett 
 examinerande värde.
@@ -41,8 +46,12 @@ examinerande värde.
 Inga bidrag kommer accepteras.
 Det är ett skolprojekt och behöver inte vidare utvecklas.
 Det går bra att använda koden för eget bruk men jag ser ingen riktig anledning för att göra det.
+Om du använder programmet får du gärna ange mig som en Contributor men det gör inget om inte.
 
 
 ## Licens (License)
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+## Kontakt information
+Noneofyourdamnbuissnes.com
