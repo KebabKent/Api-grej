@@ -33,13 +33,14 @@ pip install requests
 ```
 
 ## To do
-Pls no help! 
-yeis?
+Det finns ingen anledning att fortsätta utveckla programmet. Det är väldigt simpelt och har bara ett 
+examinerande värde.
 
 
 ## Att bidra (contribution)
-Pls no help! 
-yeis?
+Inga bidrag kommer accepteras.
+Det är ett skolprojekt och behöver inte vidare utvecklas.
+Det går bra att använda koden för eget bruk men jag ser ingen riktig anledning för att göra det.
 
 
 ## Licens (License)
