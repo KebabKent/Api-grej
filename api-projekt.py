@@ -3,14 +3,6 @@ import webbrowser
 import time
 
 
-def time_reveal():
-    print('In')
-    for i in range(5,0,-1):
-        print(i)
-        time.sleep(1)
-    print()
-
-
 class Spel:
     def roll_dice():
         dice_req = requests.get('http://roll.diceapi.com/json/d6')
@@ -27,8 +19,13 @@ class Spel:
         chuck = chuck_req.json()
         print(chuck['value'] + '\n')
 
+def time_reveal():
+    print('In')
+    for i in range(5,0,-1):
+        print(i)
+        time.sleep(1)
+    print()
 
-spelare = Spel
 
 
 def fifty_fifty_spel(spelare):
@@ -64,5 +61,8 @@ def fifty_fifty_spel(spelare):
             print('Answer is invallid please try again!')
 
 
-fifty_fifty_spel(spelare)
 
+
+if __name__ == "__main__":
+    spelare = Spel
+    fifty_fifty_spel(spelare)
