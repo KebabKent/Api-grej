@@ -3,6 +3,7 @@ import webbrowser
 import time
 
 
+
 class Spel:
     def roll_dice():
         dice_req = requests.get('http://roll.diceapi.com/json/d6')
