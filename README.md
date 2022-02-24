@@ -53,6 +53,10 @@ Det går bra att använda koden för eget bruk men jag ser ingen riktig anlednin
 Om du använder programmet får du gärna ange mig som en Contributor men det gör inget om inte.
 
 
+## Projektet är färdigt
+Projektet är färdigt och blev klart 2022-02-24
+
+
 ## Licens (License)
 [MIT](https://choosealicense.com/licenses/mit/)
 
